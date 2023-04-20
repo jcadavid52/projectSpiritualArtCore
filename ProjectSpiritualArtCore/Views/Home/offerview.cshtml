@@ -1,0 +1,50 @@
+﻿@model DataAccess.Planes
+
+<div class="container">
+    <p>@Model.Nombre</p>
+    <p>@Model.Precio</p>
+
+    <form id="form-pago">
+        @Html.AntiForgeryToken()
+
+        <input type="text" name="Precio" value="@Model.Precio" />
+        <input type="text" name="Plan" value="@Model.Nombre" />
+
+        <button type="submit">Contratar</button>
+    </form>
+</div>
+
+@section Scripts{ 
+
+    <script>
+        $("#form-pago").submit(function (event) {
+            event.preventDefault();
+            var token = $('input[name="__RequestVerificationToken"]').val(); // Obtener el token antifalsificación
+            var data = $(this).serialize(); // Serializar el formulario para enviarlo como datos
+            $.ajax({
+                url: "@Url.Content("~/Home/PagoPlan")",
+                type: "POST",
+                data: data,
+                headers: { "RequestVerificationToken": token }, // Agregar el token antifalsificación en los encabezados
+                success: function (data) {
+                    if (data.status) {
+
+                        var jsonresult = JSON.parse(data.respuesta);
+
+                        var links = jsonresult.links;
+
+                        var resultado = links.find(item => item.rel === "approve")
+
+                        window.location.href = resultado.href
+                    } else {
+                        alert("Intente más tarde")
+                    }
+                },
+                error: function () {
+                    console.log("No se pudo conectar con el servidor")
+                }
+            });
+        });
+    </script>
+
+} 

@@ -1,0 +1,32 @@
+﻿@model List<ObrasViewModel>
+<p>Mi galeria</p>
+
+
+
+@section Scripts{ 
+
+ <script>
+     $(document).ready(function () {
+
+         $.ajax({
+
+             type: "GET",
+             url: "@Url.Content("~/Home/MyArtworks")",
+             contentType: "application/json; charset=utf-8",
+             dataType:"json",
+             cache: false,
+             success: function(data) {
+                 $.each(data, function (key, value) {
+                     console.log(value.Nombre);
+                 });
+                 console.log(data.Nombre)
+             },
+             error: function(){
+                console.log("Error")
+             }
+
+         })
+     })
+ </script>
+
+}

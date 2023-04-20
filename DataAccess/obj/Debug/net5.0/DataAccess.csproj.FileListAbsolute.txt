@@ -1,0 +1,15 @@
+C:\Users\jcadavic\Documents\PROGRAMACIÓN\Asp.netCore\ProjectSpiritualArtCore\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+C:\Users\jcadavic\Documents\PROGRAMACIÓN\Asp.netCore\ProjectSpiritualArtCore\DataAccess\bin\Debug\net5.0\DataAccess.dll
+C:\Users\jcadavic\Documents\PROGRAMACIÓN\Asp.netCore\ProjectSpiritualArtCore\DataAccess\bin\Debug\net5.0\ref\DataAccess.dll
+C:\Users\jcadavic\Documents\PROGRAMACIÓN\Asp.netCore\ProjectSpiritualArtCore\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\jcadavic\Documents\PROGRAMACIÓN\Asp.netCore\ProjectSpiritualArtCore\DataAccess\obj\Debug\net5.0\DataAccess.csprojAssemblyReference.cache
+C:\Users\jcadavic\Documents\PROGRAMACIÓN\Asp.netCore\ProjectSpiritualArtCore\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jcadavic\Documents\PROGRAMACIÓN\Asp.netCore\ProjectSpiritualArtCore\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\jcadavic\Documents\PROGRAMACIÓN\Asp.netCore\ProjectSpiritualArtCore\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+C:\Users\jcadavic\Documents\PROGRAMACIÓN\Asp.netCore\ProjectSpiritualArtCore\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\jcadavic\Documents\PROGRAMACIÓN\Asp.netCore\ProjectSpiritualArtCore\DataAccess\obj\Debug\net5.0\DataAccess.dll
+C:\Users\jcadavic\Documents\PROGRAMACIÓN\Asp.netCore\ProjectSpiritualArtCore\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
+C:\Users\jcadavic\Documents\PROGRAMACIÓN\Asp.netCore\ProjectSpiritualArtCore\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+C:\Users\jcadavic\Documents\PROGRAMACIÓN\Asp.netCore\ProjectSpiritualArtCore\DataAccess\bin\Debug\net5.0\DataAccess.runtimeconfig.json
+C:\Users\jcadavic\Documents\PROGRAMACIÓN\Asp.netCore\ProjectSpiritualArtCore\DataAccess\bin\Debug\net5.0\DataAccess.runtimeconfig.dev.json
+C:\Users\jcadavic\Documents\PROGRAMACIÓN\Asp.netCore\ProjectSpiritualArtCore\DataAccess\obj\Debug\net5.0\DataAccess.genruntimeconfig.cache
